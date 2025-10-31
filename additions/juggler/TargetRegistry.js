@@ -639,7 +639,7 @@ class PageTarget {
   }
 
   updateColorSchemeOverride(browsingContext = undefined) {
-    (browsingContext || this._linkedBrowser.browsingContext).prefersColorSchemeOverride = this.colorScheme || 'dark';
+    (browsingContext || this._linkedBrowser.browsingContext).prefersColorSchemeOverride = this.colorScheme || 'light';
   }
 
   setReducedMotion(reducedMotion) {
